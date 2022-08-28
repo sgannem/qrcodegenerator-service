@@ -1,0 +1,10 @@
+spring:
+server:
+  port: 9083
+  main:
+    banner-mode: "console"
+  banner.location: banner.txt
+  application:
+    name: qrcodegenerator-service
+  servlet:
+    context-path: /qrcodegenerator-service
